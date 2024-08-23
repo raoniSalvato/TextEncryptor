@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main class="tela_principal">
+
+        <img src="assets/Logo.png" class="tela_principal_logo">
+
+        <section class="tela_principal_text_botoes">
+            <textarea name="textarea_digitar" class="tela_principal_text" id="textarea">Digite seu texto</textarea>
+            <div class="tela_principal_aviso">
+                <img src="assets/Vector.png" alt="">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            
+            <div class="tela_principal_botoes">
+                <button onclick="botao_crip()" class="tela_principal_botao_crip">Criptografar</button>
+                <button id="botao_descrip" onclick="botao_descrip()" class="tela_principal_botao_descrip">Descriptografar</button>
+            </div>    
+        </section>
+
+        <img src="assets/1.PNG" alt="" id="imagemSemNada" class="imagem_sem_nada">
+
+        <div class="textarea_resposta_copiar" id="textarea_resposta_copiar" style="display: none;">
+            <textarea name="textarea_resposta" id="textarea_resposta" class="textarea_resposta"></textarea>
+            <button onclick="copiar_texto()" class="botao_copiar">Copiar</button>
+        </div> 
+    </main>
+    <footer></footer>
+    <script src="javaScript.js" defer></script>
+</body>
+</html>

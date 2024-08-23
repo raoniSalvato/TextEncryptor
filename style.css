@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #EFF1FA;
+}
+
+.tela_principal{
+    padding: 8% 15%;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.tela_principal_text_botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tela_principal_text{
+    width: 59rem;
+    height: 40rem;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: #EFF1FA;
+    color: #0A3871;
+    font-size: 2rem;
+}
+
+.tela_principal_aviso{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: #495057;
+}
+
+.tela_principal_botoes{
+    display: flex; 
+    gap: 3rem;
+    width: 100%;
+}
+
+.tela_principal_botao_crip{
+    background-color: #0A3871;
+    color: white;
+    font-size: 1rem;
+    height: 3.75rem;
+    width: 28rem;
+    border-radius: 1.5rem;
+    border: 2px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.tela_principal_botao_descrip{
+    background-color: transparent;
+    color: #0A3871;
+    font-size: 1rem;
+    height: 3.75rem;
+    width: 28rem;
+    border-radius: 1.5rem;
+    border: 2px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.imagem_sem_nada{
+    height: 944px;
+    border-radius: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.textarea_resposta_copiar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 59rem;
+    width: 25rem;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.textarea_resposta{
+    background-color: transparent;
+    height: 45rem;
+    width: 21rem;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+    color: #495057;
+}
+
+.botao_copiar{
+    background-color: transparent;
+    color: #0A3871;
+    font-size: 1rem;
+    height: 3.75rem;
+    width: 22rem;
+    border-radius: 1.5rem;
+    border: 2px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
