@@ -15,6 +15,10 @@ body{
     align-items: center;
 }
 
+.tela_principal_logo {
+    align-self: flex-start; 
+}
+
 .tela_principal_text_botoes{
     display: flex;
     flex-direction: column;
